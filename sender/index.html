@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html data-cast-api-enabled="true">
+	<head>
+		<title> Rdio Concert - Chromecast </title>
+	</head>
+
+	<body>
+		<p> Rdio Concert - Chromecast </p>
+		<div id="receivers"></div>
+		<div id="status"></div>
+		<button onclick="launchAppOnReceiver()">Launch</button>
+
+		<div>
+			<img class="main_photo" src="">
+		</div>
+
+		<div class="receiver-div">
+			<h3>Choose A Receiver</h3>
+			<ul class="receiver-list">
+				<li>Looking for receivers...</li>
+			</ul>
+		</div>
+		<button class="kill" disabled>Kill the Connection</button>
+
+
+  		<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+ 		<script type="text/javascript" src="https://www.gstatic.com/cv/js/sender/v1/cast_sender.js"></script>
+ 		<script src="http://underscorejs.org/underscore-min.js"></script>
+ 		<script src="https://www.rdio.com/api/api.js?client_id=0iGZRjeUCIiT6AUy9K0GUA"></script>
+		<script src="sender.js"></script>
+	</body>
+</html>
